@@ -1,0 +1,133 @@
+:root {
+  --main-bg-color: #697f92;
+  --main-text-color: #000000;
+  --second-text-color: #2E8BC0;
+  --second-bg-color: #cdd8e2;
+}
+
+.primary-text {
+  color: var(--main-text-color);
+}
+
+.second-text {
+  color: var(--second-text-color);
+}
+
+.primary-bg {
+  background-color: var(--main-bg-color);
+}
+
+.secondary-bg {
+  background-color: var(--second-bg-color);
+}
+
+.rounded-full {
+  border-radius: 100%;
+}
+
+#wrapper {
+  overflow-x: hidden;
+  background-image: linear-gradient(
+    to right,
+    #baf3d7,
+    #c2f5de,
+    #cbf7e4,
+    #d4f8ea,
+    #ddfaef
+  );
+}
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin 0.25s ease-out;
+  -moz-transition: margin 0.25s ease-out;
+  -o-transition: margin 0.25s ease-out;
+  transition: margin 0.25s ease-out;
+  background: rgba( 255, 255, 255, 0.30 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 9.5px );
+  -webkit-backdrop-filter: blur( 9.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+#menu-toggle {
+  cursor: pointer;
+}
+
+.list-group-item {
+  border: none;
+  padding: 20px 30px;
+}
+
+.list-group-item.active {
+  background-color: transparent;
+  color: var(--main-text-color);
+  font-weight: bold;
+  border: none;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
+.cards{
+  background: rgba( 255, 255, 255, 0.30 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 7.5px );
+  -webkit-backdrop-filter: blur( 7.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+button{
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+}

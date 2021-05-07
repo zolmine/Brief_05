@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/Controllers/del_customer.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Controllers/fill_pension.con.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Controllers/fill_pension_type.con.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Controllers/fill_rooms.con.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Controllers/fill_types.con.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Controllers/fill_view.con.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Models/Admin.class.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Models/Ajax.class.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Models/Authentication.class.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Models/Customer.class.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Models/Name.class.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Models/Reserve.class.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Models/Tarif.class.php" dialect="GenericSQL" />
+  </component>
+</project>
